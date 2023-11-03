@@ -1,5 +1,7 @@
 <h3>Here are some movies!</h3>
 
 <ul>
-  ...
+  {{#each this.allMovies}}
+    <li>{{this.title}}</li>
+  {{/each}}
 </ul>
